@@ -1,0 +1,6 @@
+p=int(input("Enter the principal value:"))
+r=int(input("Enter the interest rate:"))
+t=int(input("Enter the time:"))
+n=int(input("Enter the number of times:"))
+z=p*((1+(r/n))**(t*n)-1)
+print(z)
