@@ -1,0 +1,4 @@
+p=int(input("Enter the principal value:"))
+r=int(input("Enter the interest rate:"))
+t=int(input("Enter the time:"))
+print(p*r*t)
