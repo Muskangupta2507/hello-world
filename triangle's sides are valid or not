@@ -1,0 +1,7 @@
+p=input("Enter the side1:")
+b=input("Enter the side2:")
+h=input("Enter the side3:")
+if((p+b)>h and (b+h)>p and (h+p)>b):
+  print("valid")
+else:
+  print("not valid")
