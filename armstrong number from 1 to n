@@ -1,0 +1,21 @@
+'''10. wap to print all the armstrong numbers from 1 to n where n is taken from user'''
+nt=int(input("Enter the number:"))
+i=1
+while i<=nt:
+    n=i
+    sum =0
+    num=n
+    nu=0
+    while n!=0:
+        n=n//10
+        nu=nu+1
+    n=num
+    while n!=0:
+        t=n%10
+        s=t**nu 
+        n=n//10
+        sum=sum+s
+        
+    if (sum==num):
+        print(num)
+    i=i+1
