@@ -1,0 +1,8 @@
+'''wap to take one number from user and then find the sum of digits'''
+n=int(input("Enter the value:"))
+s=0
+while n!=0:
+    t=n%10
+    s=s+t
+    n=n//10
+print("the sum of the value is:",s)
