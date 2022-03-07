@@ -4,3 +4,14 @@ c=int(input("Enter the 3rd side:"))
 s=print("perimeter of triangle is:"a+b+c)
 s=a+
 print("area of triangle is:"(s*(s-a)*(s-b)*(s-c))**0.5))
+
+
+
+
+
+
+
+
+
+
+
