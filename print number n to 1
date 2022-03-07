@@ -1,0 +1,6 @@
+''' 2. wap to print numbersfrom n to 1 where n is taken from user'''
+n=int(input("Enter the number of terms:"))
+i=n
+while i>=1:
+    print (i)
+    i=i-1
