@@ -1,0 +1,21 @@
+x=int(input("Enter the number:"))
+num=0
+x1=x
+x2=x
+p=x
+n=0
+count=0
+y=0
+while (x1>=10):
+    x1=x1//10
+    n=x1
+    count=count+1
+while (x2>=10):
+    x2=x2%10
+    y=x2
+x=x//10
+num=x*10+n
+x1=pow(10,count)
+x2=y*x1
+x=num%x1+x2
+print("the interchanged number is:",x)
